@@ -291,3 +291,8 @@ Implemented smooth navigation between these pages using React Router.
 Responsive Design
 Used CSS Flexbox and media queries to ensure the Navbar is fully responsive on all screen sizes (mobile, tablet, desktop).
 Added a hamburger menu for smaller screens to toggle the navigation links.
+
+# Milestone16: Showing product discription:
+Product Details Component This is a React component that retrieves and displays detailed information about a specific product from an API. It provides users with an intuitive interface to view product details, adjust the quantity, and handle different loading and error scenarios.
+
+Features Fetches and Displays Product Details: Retrieves product data, including name, description, category, tags, price, and images, from an API endpoint. Quantity Selection: Allows users to increment or decrement the quantity before adding the product to the cart. Handles Loading and Error States: Displays appropriate messages while data is being fetched or if an error occurs. Image Display: If product images are available, they are displayed dynamically. A placeholder is shown if no image is found. Add to Cart Button: Provides an interactive button to allow users to proceed with purchasing the product.
