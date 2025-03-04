@@ -292,7 +292,69 @@ Responsive Design
 Used CSS Flexbox and media queries to ensure the Navbar is fully responsive on all screen sizes (mobile, tablet, desktop).
 Added a hamburger menu for smaller screens to toggle the navigation links.
 
-# Milestone16: Showing product discription:
-Product Details Component This is a React component that retrieves and displays detailed information about a specific product from an API. It provides users with an intuitive interface to view product details, adjust the quantity, and handle different loading and error scenarios.
+# Milestone 16: Product Info Page with Quantity Selection and Add to Cart
+In this milestone, we focused on creating a dedicated Product Info Page to display detailed information for each product and allow users to select quantity and add the product to their cart.
 
-Features Fetches and Displays Product Details: Retrieves product data, including name, description, category, tags, price, and images, from an API endpoint. Quantity Selection: Allows users to increment or decrement the quantity before adding the product to the cart. Handles Loading and Error States: Displays appropriate messages while data is being fetched or if an error occurs. Image Display: If product images are available, they are displayed dynamically. A placeholder is shown if no image is found. Add to Cart Button: Provides an interactive button to allow users to proceed with purchasing the product.
+Frontend: Product Info Page
+Designed a new Product Info Page that shows all relevant product details such as:
+Product Name
+Product Description
+Product Price
+Product Images
+Added a quantity selector that allows users to choose how many units they want to add to their cart.
+Implemented an Add to Cart button to add the selected product and quantity to the user's cart.
+React Router Integration
+Used React Router to navigate to the Product Info Page when a product card is clicked on the homepage or product listing page.
+Passed the product ID through the URL to fetch and display product details on the new page.
+State Management and API Integration
+Fetched product details from the backend using the product ID.
+Managed the selected quantity using React state.
+Implemented a function to handle adding the product to the cart, updating the cart state in the application.
+
+# Milestone 17: Adding Products to Cart
+In this milestone, we focused on implementing the functionality to add products to the cart. Key achievements include
+
+Frontend: Adding Products to Cart
+Designed a new Cart component that displays the products added to the cart, along with their
+Implemented a function to handle adding products to the cart, updating the cart state in the application.
+Used React state to manage the cart items and their quantities.
+Backend: API Integration
+Created a new API endpoint to handle adding products to the cart.
+Implemented server-side logic to update the cart state in the database.
+State Management and API Integration
+Fetched the updated cart state from the backend after adding a product.
+Managed the cart state using React state.
+
+# Milestone 18: Creating an end point for cart page
+In this milestone, we implemented a backend endpoint to fetch all the products inside a user's cart. This functionality is essential for displaying the cart contents on the cart page.
+
+Backend: API Integration
+Created a new API endpoint to fetch all products in a user's cart.
+Implemented server-side logic to retrieve the cart contents from the database.
+Frontend: Cart Page
+Designed a new Cart Page component that displays the products in the user's cart.
+Used React Router to navigate to the Cart Page.
+State Management and API Integration
+Fetched the cart contents from the backend using the API endpoint. The final product will have the following features:
+A user can view all products on the homepage.
+A user can view product details on a dedicated product info page.
+A user can add products to their cart.
+A user can view their cart contents on the cart page.
+
+# Milestone 19: Shopping Cart UI with API Endpoint for Updating Product Quantity
+In this milestone, we focused on implementing the shopping cart UI and API endpoint for updating product quantity.
+
+Frontend: Shopping Cart UI
+Designed a new Cart component that displays the products in the user's cart, along with their quantities
+Implemented a function to handle updating the quantity of a product in the cart
+Used React state to manage the cart items and their quantities
+Backend: API Endpoint for Updating Product Quantity
+Created a new API endpoint to update the quantity of a product in the cart
+Implemented server-side logic to update the cart state in the database
+State Management and API Integration
+Fetched the updated cart state from the backend after updating a product quantity The final product will have the following features:
+A user can view all products on the homepage
+A user can view product details on a dedicated product info page
+A user can add products to their cart
+A user can view their cart contents on the cart page
+A user can update the quantity of products in their cart
