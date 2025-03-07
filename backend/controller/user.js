@@ -8,8 +8,6 @@ const ErrorHandler = require("../utils/ErrorHandler");
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
 const bcrypt = require("bcryptjs");
 require("dotenv").config();
-
-
 router.post("/create-user", upload.single("file"), catchAsyncErrors(async (req, res, next) => {
     console.log("Creating user...");
     const { name, email, password } = req.body;
@@ -90,6 +88,9 @@ router.get("/profile", catchAsyncErrors(async (req, res, next) => {
         addresses: user.addresses,
     });
 }));
+
+
+
 
 
 
