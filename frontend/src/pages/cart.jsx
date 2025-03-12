@@ -2,15 +2,12 @@ import CartProduct from '../components/CartProduct';
 import Nav from '../components/nav';
 import { useState, useEffect } from 'react';
 
-
 const Cart = () => {
-
 
     const [products, setProducts] = useState([]);
 
-
     useEffect(() => {
-        fetch(`http://localhost:8000/api/v2/product/cartproducts?email=${'akshara@gmail.com'}`)
+        fetch(`http://localhost:8000/api/v2/product/cartproducts?email=${'vigneshramalingam305@gmail.com'}`)
           .then((res) => {
             if (!res.ok) {
               throw new Error(`HTTP error! status: ${res.status}`);
@@ -25,9 +22,8 @@ const Cart = () => {
             console.error(" Error fetching products:", err);
           });
       }, []);
-   
+    
       console.log("Products:", products);
-
 
     return (
         <div className='w-full h-screen'>

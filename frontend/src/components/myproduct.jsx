@@ -42,7 +42,6 @@ function Myproduct({ _id, name, images, description, price }) {
 
     return (
         <>
-        
       
             <div className="bg-neutral-200 p-4 rounded-lg shadow-md flex flex-col justify-between">
                 <div className="w-full">

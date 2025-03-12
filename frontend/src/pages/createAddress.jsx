@@ -23,7 +23,7 @@ const CreateAddress = () => {
             address2,
             zipCode,
             addressType,
-            email: "gowrishvarma@gmail.com"
+            email: "vigneshramalingam305@gmail.com"
         };
 
         try {
@@ -40,7 +40,7 @@ const CreateAddress = () => {
             }
         } catch (err) {
             console.error("Error adding address:", err);
-            alert("Failed to add address. Please check the data and try again.");
+            alert("Failed to add address. Please check the data and try again.",err);
         }
     };
 

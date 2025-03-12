@@ -292,6 +292,7 @@ Responsive Design
 Used CSS Flexbox and media queries to ensure the Navbar is fully responsive on all screen sizes (mobile, tablet, desktop).
 Added a hamburger menu for smaller screens to toggle the navigation links.
 
+
 # Milestone 16: Product Info Page with Quantity Selection and Add to Cart
 In this milestone, we focused on creating a dedicated Product Info Page to display detailed information for each product and allow users to select quantity and add the product to their cart.
 

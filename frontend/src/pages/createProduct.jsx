@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 import { AiOutlinePlusCircle } from "react-icons/ai";
-import axios from 'axios'
+import axios from "axios";
 import { useParams, useNavigate } from "react-router-dom";
 import Nav from "../components/nav";
 const CreateProduct = () => {
